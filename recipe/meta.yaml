@@ -3,7 +3,7 @@
 
 package:
   name: r-bitops
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   fn: bitops_{{ version }}.tar.gz
